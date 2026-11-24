@@ -1,0 +1,13 @@
+name = "Falix Modpack 1.20.1"
+author = "JBKernix"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2c0cf3a31134d57a002ebd4ec281a19108ee2775488f22f64094c307b9723256"
+
+[versions]
+forge = "47.4.28"
+minecraft = "1.20.1"

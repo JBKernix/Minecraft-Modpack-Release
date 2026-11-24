@@ -1,0 +1,19 @@
+# draft: exclude runtime/state data
+journeymap/
+xaero/
+world/
+logs/
+libraries/
+libraries.backup-*/
+*.backup-*/
+1201/
+?/
+automodpack/
+usercache.json
+usernamecache.json
+ops.json
+banned-*.json
+whitelist.json
+eula.txt
+server.properties
+server.jar

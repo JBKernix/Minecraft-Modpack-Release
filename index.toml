@@ -1,0 +1,149 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/citadel-common.toml"
+hash = "0a41518641bbb4133fc61b934e8663ae5271ffd8190a281e5b35d1efd97fb3e3"
+
+[[files]]
+file = "config/create-common.toml"
+hash = "6c0f6254798808bce8079a1cfafe4d6c082cead42c51d1e3121f3580f8a44eca"
+
+[[files]]
+file = "config/curios-common.toml"
+hash = "541ee90994c1cf3d4e132df2ac3ff74004bc3952d3914ae843b5089a4dda8a95"
+
+[[files]]
+file = "config/farmersdelight-common.toml"
+hash = "6f7f9b9100ae55c2b020762e28330fdd7b890e9a2f54ffaea6ed3b11355d1129"
+
+[[files]]
+file = "config/modernfix-common.toml"
+hash = "d40a0510a5eaf56e3c48e881348d7d826c5a1f61aa29b69cf0fc33dd96d6fdcd"
+
+[[files]]
+file = "config/sliceanddice-common.toml"
+hash = "61656b3d54da0fa7a4d2c297a8e0dcbc701996c4cf1187c063208ab3e46ff693"
+
+[[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
+
+[[files]]
+file = "mods/1-20-1-1-5-40-2493.pw.toml"
+hash = "38f780af6fb5f037aad7da8a739e3c9e5efae9e335059feed6a8c4d8bba6b901"
+metafile = true
+
+[[files]]
+file = "mods/1-20-1-3-26-22-2264.pw.toml"
+hash = "3697e4297d85f621a1416166d1dabffe25b9528c4a5937aec8e8c8fd1031f266"
+metafile = true
+
+[[files]]
+file = "mods/15-75-0-242-for-forge-1-20-1.pw.toml"
+hash = "7b94bdae2265d15b9a549bda250de767ec297a2def9a44d07fb14f52e3438d15"
+metafile = true
+
+[[files]]
+file = "mods/6-0-1-forge.pw.toml"
+hash = "a11c94da27a6c4941e323c959e82479c0b7a125415f4c324b6c2e110cc91c056"
+metafile = true
+
+[[files]]
+file = "mods/alex-s-mobs-1-22-9.pw.toml"
+hash = "63142fc202e995ca897e4fb74bfdbb4825a6cb9579907d335cf8f4dfb0f0f30f"
+metafile = true
+
+[[files]]
+file = "mods/alexs-delight.pw.toml"
+hash = "99f6d4e46f784953d16aa1ce5f72327b21487dc0e27d3143c8a6b60c6d02381a"
+metafile = true
+
+[[files]]
+file = "mods/appleskin-forge-mc1-20-1-2-5-1.pw.toml"
+hash = "daf6ad5660704bcc672351aa814c7fad0913d6d8fcfc7350994afa4261c5dfaa"
+metafile = true
+
+[[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
+metafile = true
+
+[[files]]
+file = "mods/citadel-2-6-3.pw.toml"
+hash = "10d88cae31b8259d06ac8da7d53054890e63747051490116c5edb838ca10e8f0"
+metafile = true
+
+[[files]]
+file = "mods/create-6-0-8-for-mc1-20-1.pw.toml"
+hash = "97e85799f2ee1dfc4488725ca98d7a13bbdab07d22b99131f3c50e25e9cc9d04"
+metafile = true
+
+[[files]]
+file = "mods/create-o-plenty.pw.toml"
+hash = "c430ed4de730f554138768eba9a85f3b93eb81c50cf76eb741048c5ea57bed7a"
+metafile = true
+
+[[files]]
+file = "mods/curios-forge-5-14-1-1-20-1.pw.toml"
+hash = "b25e2a15de487eeac4db8fa3179254a71ab148f5d29fef3d26ad11beda154633"
+metafile = true
+
+[[files]]
+file = "mods/farmer-s-delight-1-3-4-1-20-1.pw.toml"
+hash = "ee6d66b15623355285920ee7301a3c179299fcd023bc6f2ab803c66a745dabe6"
+metafile = true
+
+[[files]]
+file = "mods/forge-1-20-1-11-13-3.pw.toml"
+hash = "402ca43b10a97028da3f0e4b3cc1dd3d2dbde3c91980b56eb73b3c582dd2c29d"
+metafile = true
+
+[[files]]
+file = "mods/forge-1-20-1-5-5-1.pw.toml"
+hash = "011d1e165724cfbd9d08a5ed0c2fd552c1e20a79bad6dbb61fde76af64f8d588"
+metafile = true
+
+[[files]]
+file = "mods/forge-3-6-0.pw.toml"
+hash = "197129ac4eb2609ca60255f2a8318ab672c22622567fe6d74e3dab3b60a0c9e3"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "c46659c3e873e0ca121f5215991ae8bc989132a3fea0c2da9eed0f22a947b2b9"
+metafile = true
+
+[[files]]
+file = "mods/journeymap-1-20-1-6-0-8-forge.pw.toml"
+hash = "c69eaaba0ec5bc5f7a1f0b2428e33337cfa888d4436ca8babaaf782338d1e220"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge-4-12-0.pw.toml"
+hash = "07f1a8bcc2a719dbe8ea5706bcfa944584b586d52e0ab796e0301f7cabd330f7"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig-0-7-1-for-forge-1-20-1.pw.toml"
+hash = "8242179869556f615dd42cce86f476e2bf66cef59f58c4a9b5898463808e4535"
+metafile = true
+
+[[files]]
+file = "mods/modernfix-forge-5-28-0-mc1-20-1-jar.pw.toml"
+hash = "50e71f5d7c99dcc47c80c6397e617dc3372dddb9014b730063b27b02b0e1945d"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "d60416f1a6142500481b322d3376c1f9661ab276d47bbef799e3920b9411c1a0"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "01d628d71fd20a235492879b37853c2301066aee4234df0acd62c6990b319d26"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
+metafile = true
