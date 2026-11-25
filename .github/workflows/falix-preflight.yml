@@ -1,0 +1,66 @@
+name: Falix read-only preflight
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [.github/workflows/falix-preflight.yml]
+
+permissions: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Check access to oho
+        env:
+          FALIX_API_KEY: ${{ secrets.FALIX_API_KEY }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+          import urllib.error
+          import urllib.request
+
+          key = os.environ["FALIX_API_KEY"]
+          if not key:
+              raise SystemExit("Missing the FALIX_API_KEY Actions secret.")
+
+          def read(path, label):
+              request = urllib.request.Request(
+                  "https://client.falixnodes.net/api/v2" + path,
+                  headers={"Authorization": "Bearer " + key,
+                           "Accept": "application/json",
+                           "User-Agent": "oho-mod-automation-preflight/1"},
+              )
+              try:
+                  with urllib.request.urlopen(request, timeout=25) as response:
+                      value = json.load(response)["data"]
+              except urllib.error.HTTPError as error:
+                  raise SystemExit(f"{label}: Falix returned HTTP {error.code}.") from None
+              except (urllib.error.URLError, TimeoutError, ValueError, KeyError):
+                  raise SystemExit(f"{label}: unable to read a Falix API response.") from None
+              print(f"{label}: OK")
+              return value
+
+          account = read("/me", "Authentication")
+          required = {"servers:read", "servers:power", "servers:files:read",
+                      "servers:files:write", "servers:logs:read"}
+          granted = set(account["key"]["scopes"])
+          if required != granted:
+              missing = ", ".join(sorted(required - granted)) or "none"
+              extra_count = len(granted - required)
+              raise SystemExit(f"Scope check failed. Missing: {missing}. Extra scopes: {extra_count}.")
+          print("Scope check: exactly the five requested permissions are granted.")
+
+          server = "/servers/3570466"
+          status = read(server + "/console/status", "Server status")
+          if status.get("server_id") != 3570466 or status.get("server_name") != "oho":
+              raise SystemExit("The API did not return the expected oho server.")
+          read(server + "/files?directory=%2Fmods&limit=100", "Mod directory")
+          log = read(server + "/console/log?lines=40", "Startup log access")
+          if not log.get("lines"):
+              raise SystemExit("Falix returned no log lines to verify.")
+          print("Preflight passed. No server files or power state were changed.")
+          PY
