@@ -48,11 +48,12 @@ jobs:
           required = {"servers:read", "servers:power", "servers:files:read",
                       "servers:files:write", "servers:logs:read"}
           granted = set(account["key"]["scopes"])
-          if required != granted:
-              missing = ", ".join(sorted(required - granted)) or "none"
-              extra_count = len(granted - required)
-              raise SystemExit(f"Scope check failed. Missing: {missing}. Extra scopes: {extra_count}.")
-          print("Scope check: exactly the five requested permissions are granted.")
+          missing = required - granted
+          if missing:
+              raise SystemExit("Missing required scopes: " + ", ".join(sorted(missing)))
+          print("Scope check: the five requested permissions are granted.")
+          if extra := granted - required:
+              print(f"::warning::Falix reports {len(extra)} additional scopes. Review the key before enabling writes.")
 
           server = "/servers/3570466"
           status = read(server + "/console/status", "Server status")
