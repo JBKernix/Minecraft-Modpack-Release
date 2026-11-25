@@ -29,8 +29,8 @@ file = "config/sophisticatedbackpacks-common.toml"
 hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
 
 [[files]]
-file = "mods/1-20-1-1-5-40-2493.pw.toml"
-hash = "38f780af6fb5f037aad7da8a739e3c9e5efae9e335059feed6a8c4d8bba6b901"
+file = "mods/1-20-1-1-5-41-2500.pw.toml"
+hash = "47b50817413526e42c871b4d67c2a9d2837e56f4941e32b66352933aff78337c"
 metafile = true
 
 [[files]]
@@ -149,8 +149,8 @@ hash = "8242179869556f615dd42cce86f476e2bf66cef59f58c4a9b5898463808e4535"
 metafile = true
 
 [[files]]
-file = "mods/modernfix-forge-5-28-0-mc1-20-1-jar.pw.toml"
-hash = "50e71f5d7c99dcc47c80c6397e617dc3372dddb9014b730063b27b02b0e1945d"
+file = "mods/modernfix-forge-5-28-8-mc1-20-1-jar.pw.toml"
+hash = "fe89c97f018be594d17e7ba9caf8c46f1eec3afa7ad21e6e8c79a92d8640376c"
 metafile = true
 
 [[files]]
