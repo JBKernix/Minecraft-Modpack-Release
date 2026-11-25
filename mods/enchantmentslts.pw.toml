@@ -1,0 +1,13 @@
+name = "EnchantmentsLTS"
+filename = "enchantments_pp-forge-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "896b897d6433f3915d1b357a3c50467b02bcc4f1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9582992
+project-id = 1801439

@@ -64,6 +64,16 @@ hash = "daf6ad5660704bcc672351aa814c7fad0913d6d8fcfc7350994afa4261c5dfaa"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
+metafile = true
+
+[[files]]
+file = "mods/benchantments.pw.toml"
+hash = "9bc228696d26756bd9693ed8720bb480e4610de7536aba3b5bdbf8440bcfe573"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
 metafile = true
@@ -86,6 +96,16 @@ metafile = true
 [[files]]
 file = "mods/curios-forge-5-14-1-1-20-1.pw.toml"
 hash = "b25e2a15de487eeac4db8fa3179254a71ab148f5d29fef3d26ad11beda154633"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-config.pw.toml"
+hash = "3f68a6b2be59d2910c6cd6d6204caf41e46778f55f7fa7245ab390a3f579ec81"
+metafile = true
+
+[[files]]
+file = "mods/enchantmentslts.pw.toml"
+hash = "0134cc9066d489fe03f6d251131d52fac4b6f03555b0853112a6ebbdac702ace"
 metafile = true
 
 [[files]]
