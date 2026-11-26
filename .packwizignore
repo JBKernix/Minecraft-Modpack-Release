@@ -17,3 +17,5 @@ whitelist.json
 eula.txt
 server.properties
 server.jar
+/crabbers-lanternfish-fix/
+/crabbers-lanternfish-fix.zip

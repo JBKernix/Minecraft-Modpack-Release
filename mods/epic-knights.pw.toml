@@ -1,0 +1,12 @@
+name = "Epic Knights: Shields, Armor and Weapons"
+filename = "epic-knights-1.20.1-forge-10.15.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/L6jvzao4/versions/gJ59URg4/epic-knights-1.20.1-forge-10.15.jar"
+hash-format = "sha1"
+hash = "8f6019735436fb5a0056916e25f62b363baddafa"
+
+[update.modrinth]
+mod-id = "L6jvzao4"
+version = "gJ59URg4"

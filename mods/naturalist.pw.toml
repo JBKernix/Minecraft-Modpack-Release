@@ -1,0 +1,12 @@
+name = "Naturalist"
+filename = "naturalist-2.0.9-forge-1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/9289/192/naturalist-2.0.9-forge-1.20.1.jar"
+hash-format = "sha256"
+hash = "b721713241003bf48ffde307a57e4c8572f48df3dcac08ffe7baacc919748fc2"
+
+[update.curseforge]
+file-id = 9289192
+project-id = 627986

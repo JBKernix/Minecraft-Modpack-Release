@@ -29,6 +29,10 @@ file = "config/sophisticatedbackpacks-common.toml"
 hash = "b377e97ca3d8ae8560448b92ab820872d7c11bef0ca52dcf3f4901b44c6ddca7"
 
 [[files]]
+file = "datapacks/crabbers-lanternfish-fix.zip"
+hash = "c93367379dc40bd689a883745383a63cb9eb5e8ab64136792d1f61590ea35e4b"
+
+[[files]]
 file = "mods/1-20-1-1-5-41-2500.pw.toml"
 hash = "47b50817413526e42c871b4d67c2a9d2837e56f4941e32b66352933aff78337c"
 metafile = true
@@ -49,16 +53,6 @@ hash = "a11c94da27a6c4941e323c959e82479c0b7a125415f4c324b6c2e110cc91c056"
 metafile = true
 
 [[files]]
-file = "mods/alex-s-mobs-1-22-9.pw.toml"
-hash = "63142fc202e995ca897e4fb74bfdbb4825a6cb9579907d335cf8f4dfb0f0f30f"
-metafile = true
-
-[[files]]
-file = "mods/alexs-delight.pw.toml"
-hash = "99f6d4e46f784953d16aa1ce5f72327b21487dc0e27d3143c8a6b60c6d02381a"
-metafile = true
-
-[[files]]
 file = "mods/appleskin-forge-mc1-20-1-2-5-1.pw.toml"
 hash = "daf6ad5660704bcc672351aa814c7fad0913d6d8fcfc7350994afa4261c5dfaa"
 metafile = true
@@ -74,6 +68,11 @@ hash = "9bc228696d26756bd9693ed8720bb480e4610de7536aba3b5bdbf8440bcfe573"
 metafile = true
 
 [[files]]
+file = "mods/better-combat.pw.toml"
+hash = "617a3f859cc146b35ef88beeade4d3a400cdfabf48a0a17947bbb31d8c9339db"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "83ba38ab1e5b583227e9d37b8fea91ac1fcb4e2f67ba86800c5d7aa4024d2993"
 metafile = true
@@ -81,6 +80,16 @@ metafile = true
 [[files]]
 file = "mods/citadel-2-6-3.pw.toml"
 hash = "10d88cae31b8259d06ac8da7d53054890e63747051490116c5edb838ca10e8f0"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "d8310264516e88efc5f2960eef260c9e3b4d458e4bfdad2740eb7bb1d6e4a77e"
+metafile = true
+
+[[files]]
+file = "mods/crabbers-delight.pw.toml"
+hash = "16b04cabbea6dd2272de15c6f6c9542ad70457795f52fd09161a616186df8f7d"
 metafile = true
 
 [[files]]
@@ -106,6 +115,11 @@ metafile = true
 [[files]]
 file = "mods/enchantmentslts.pw.toml"
 hash = "0134cc9066d489fe03f6d251131d52fac4b6f03555b0853112a6ebbdac702ace"
+metafile = true
+
+[[files]]
+file = "mods/epic-knights.pw.toml"
+hash = "7ce022f7a04b03b60f952fb4f37ede4ce503e11d112a7b533126e4e17602fed6"
 metafile = true
 
 [[files]]
@@ -151,6 +165,21 @@ metafile = true
 [[files]]
 file = "mods/modernfix-forge-5-28-8-mc1-20-1-jar.pw.toml"
 hash = "fe89c97f018be594d17e7ba9caf8c46f1eec3afa7ad21e6e8c79a92d8640376c"
+metafile = true
+
+[[files]]
+file = "mods/naturalist-feast.pw.toml"
+hash = "f294a08cc566313c09de53572f3b2dc1b939be29305f0d3909420f4f64b2b52b"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+hash = "d3caafc24fe0aea41ee74a66d2446a9949d60a4afb309129831b6853e95915d7"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "4e2ec1cf88eac13c5751e875e2bbdc4a74523d27507e4d77321f0dfebf132a5c"
 metafile = true
 
 [[files]]

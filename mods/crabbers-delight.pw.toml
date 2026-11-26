@@ -1,0 +1,12 @@
+name = "Crabber's Delight"
+filename = "crabbersdelight-1.20.1-1.2.3.jar"
+side = "both"
+
+[download]
+url = "https://mediafilez.forgecdn.net/files/8006/125/crabbersdelight-1.20.1-1.2.3.jar"
+hash-format = "sha256"
+hash = "5b57ea850233424b7b60076d76935c18aaa3e3dbf0f84cdefb7dd87f56ac3049"
+
+[update.curseforge]
+file-id = 8006125
+project-id = 892827
